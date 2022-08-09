@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2022, 7:24:42 PM
+    Author     : huynq
+*/
+
+.feedbacklist-head{
+    background-color: #FE980F;
+    height: 100px;
+    padding: 20px;
+}
+
+.feedbackform-cbo select {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.feedbackform-cbo .btn-search { 
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.feedbacklist-wrapper{
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+.feedbacklist-wrapper > div {
+    display: inline-block
+}
+
+.feedbacklist-wrapper .feedback-main {
+    width: 75%;
+}
+
+.feedbacklist-wrapper .feedback-main > div{
+    margin-bottom: 10px;
+}
+
+.feedbacklist-right{
+    width: 15%;
+    float : right;
+}
+
+.pagging {
+    display: flex;
+    float : right;
+    font-size: 20px;
+}
+
+.pagging a {
+    color: blue;
+    margin: 10px;
+}
+.pagging a:hover {
+    text-decoration: underline;
+}
+.pagging a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color : #8D8D8D;
+}
